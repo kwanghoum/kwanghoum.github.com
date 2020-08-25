@@ -1,7 +1,7 @@
 ---
 title:  "My First Post"
 search: false
-categories: 
+categories: etc
 ---
 
 This is the first post.
