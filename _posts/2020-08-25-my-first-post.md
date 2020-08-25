@@ -1,9 +1,9 @@
 ---
 title: "First Post"
 date: 2017-10-20 08:26:28 -0400
-categories: Etc
+categories: 
 ---
 
 Hello World!
 
-This is the first post of this blog.
+This is the first blog post.
