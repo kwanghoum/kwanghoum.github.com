@@ -5,6 +5,5 @@ permalink: /about/
 author_profile: true
 ---
 
-# About
 
 Archive of practice and works
