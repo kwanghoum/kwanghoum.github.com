@@ -5,38 +5,12 @@ categories:
 - kaggle
 ---
 
+# Kaggle #1 -Walmart Recruiting - Store Sales Forecasting"
+
+
+
+
 ## Lean Version
-
-```python
-import numpy as np
-import pandas as pd
-
-import os
-for dirname, _, filenames in os.walk('/kaggle/input'):
-    for filename in filenames:
-        print(os.path.join(dirname, filename))
-
-train = pd.read_csv("/kaggle/input/walmart-recruiting-store-sales-forecasting/train.csv.zip")
-test = pd.read_csv("/kaggle/input/walmart-recruiting-store-sales-forecasting/test.csv.zip")
-
-display(train, test)
-
-train2 = train.drop(['Date','Weekly_Sales'],1)
-test2 = test.drop('Date',1)
-
-from sklearn.ensemble import RandomForestRegressor
-
-rf = RandomForestRegressor(n_jobs=4)
-
-%%time
-rf.fit(train2,train['Weekly_Sales'])
-
-result = rf.predict(test2)
-
-sub = pd.read_csv("/kaggle/input/walmart-recruiting-store-sales-forecasting/sampleSubmission.csv.zip")
-sub["Weekly_Sales"] = result
-sub.to_csv("sub_0824.csv",index = 0)
-```
 
 
 ```python
