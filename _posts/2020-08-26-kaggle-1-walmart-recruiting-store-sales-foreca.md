@@ -5,10 +5,12 @@ categories:
 - kaggle
 ---
 
-# Kaggle #1 -Walmart Recruiting - Store Sales Forecasting"
+<https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting?rvi=1>
 
 
-
+## Tips
+- Tree-based models don't need one-hot-encoding and standardization.
+- Tree-based models don't require much of hyperparameter adjusting.
 
 ## Lean Version
 
